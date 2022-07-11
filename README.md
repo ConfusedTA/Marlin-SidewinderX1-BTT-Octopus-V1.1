@@ -15,6 +15,12 @@
 Additional documentation can be found at the [Marlin Home Page](https://marlinfw.org/).
 Please test this firmware and let us know if it misbehaves in any way. Volunteers are standing by!
 
+## Artillery Sidewinder X1, BTT Octopus 1.1, TMC2209
+
+This branch contains changes for the above combination of devices.
+
+Recommended to also use the TFT firmware from [digant73/BIGTREETECH-TouchScreenFirmware](https://github.com/digant73/BIGTREETECH-TouchScreenFirmware) (standard, no MBL)
+
 ## Marlin 2.0 Bugfix Branch
 
 __Not for production use. Use with caution!__
