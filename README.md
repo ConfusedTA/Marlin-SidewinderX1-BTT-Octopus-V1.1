@@ -21,6 +21,28 @@ This branch contains changes for the above combination of devices.
 
 Recommended to also use the TFT firmware from [digant73/BIGTREETECH-TouchScreenFirmware](https://github.com/digant73/BIGTREETECH-TouchScreenFirmware) (standard, no MBL)
 
+The following pinout is used:
+
+| Pin | Function | Notes |
+|---|---|---|
+| Motor 0 | X Stepper | Red wires |
+| Motor 1 | Y Stepper |   |
+| Motor 2_1 | Z Stepper (L) |   |
+| Motor 2_2 | Z Stepper (R)  | Longer cable needed |
+| Motor 3 | Extruder Stepper |   |
+| PG6 | X Limit  | Red wires |
+| PG9 | Y Limit |   |
+| PG10 | Z Limit |   |
+| PG12 | Runout | Longer cable needed |
+| PF3 | Bed temp  |   |
+| PF4 | Hot End Temp | Yellow wires |
+| Fan_0 | Part Fan  | Green wires |
+| Fan_1 | Heatbreak Fan | Blue/red wires, needs plug adding |
+| Fan_2 | Stepper Driver fan |  Optional  |
+| Fan_10 | Case Fan |   |
+| HE0 | Hot End heater |   |
+
+
 ## Marlin 2.0 Bugfix Branch
 
 __Not for production use. Use with caution!__
