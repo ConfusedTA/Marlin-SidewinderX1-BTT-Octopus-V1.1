@@ -28,8 +28,8 @@ The following pinout is used:
 | Motor 0 | X Stepper | Red wires |
 | Motor 1 | Y Stepper |   |
 | Motor 2_1 | Z Stepper (L) |   |
-| Motor 2_2 | Z Stepper (R)  | Longer cable needed |
-| Motor 3 | Extruder Stepper |   |
+| Motor 3 | Z Stepper (R)  | Longer cable needed - runs over board |
+| Motor 4 | Extruder Stepper |   |
 | PG6 | X Limit  | Red wires |
 | PG9 | Y Limit |   |
 | PG10 | Z Limit |   |
