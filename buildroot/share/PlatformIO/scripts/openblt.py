@@ -3,10 +3,8 @@
 #
 import pioutil
 if pioutil.is_pio_build():
-    import os,sys
     from os.path import join
-
-    Import("env")
+    env = pioutil.env
 
     board = env.BoardConfig()
     board_keys = board.get("build").keys()
